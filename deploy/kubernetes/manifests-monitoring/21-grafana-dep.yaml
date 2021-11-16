@@ -51,3 +51,4 @@ spec:
         emptyDir: {}
       nodeSelector:
         beta.kubernetes.io/os: linux
+        role: monitoring

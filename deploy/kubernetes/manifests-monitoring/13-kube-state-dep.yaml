@@ -41,4 +41,5 @@ spec:
           runAsUser: 65534
       nodeSelector:
         kubernetes.io/os: linux
+        role: monitoring
       serviceAccountName: kube-state-metrics

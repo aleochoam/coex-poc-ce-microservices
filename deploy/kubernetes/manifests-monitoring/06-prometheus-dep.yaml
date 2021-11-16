@@ -43,3 +43,4 @@ spec:
           name: prometheus-alertrules
       nodeSelector:
         beta.kubernetes.io/os: linux
+        role: monitoring

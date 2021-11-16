@@ -53,6 +53,7 @@ spec:
       hostPID: true
       nodeSelector:
         kubernetes.io/os: linux
+        role: monitoring
       securityContext:
         runAsNonRoot: true
         runAsUser: 65534
